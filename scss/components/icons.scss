@@ -1,0 +1,38 @@
+////////// Fontawesome Icons //////////
+
+@import "../fontawesome/scss/fontawesome.scss";
+@import "../fontawesome/scss/solid.scss";
+@import "../fontawesome/scss/brands.scss";
+
+.user {
+  @extend %fa-icon;
+  @extend .fas;
+  &:before {
+    content: fa-content($fa-var-user);
+  }
+}
+
+.bell {
+  @extend %fa-icon;
+  @extend .fas;
+  &:before {
+    content: fa-content($fa-var-bell);
+    color: gold;
+  }
+}
+
+.twitter {
+  @extend %fa-icon;
+  @extend .fab;
+  &:before {
+    content: fa-content($fa-var-twitter);
+  }
+}
+
+.facebook-f {
+  @extend %fa-icon;
+  @extend .fab;
+  &:before {
+    content: fa-content($fa-var-facebook-f);
+  }
+}

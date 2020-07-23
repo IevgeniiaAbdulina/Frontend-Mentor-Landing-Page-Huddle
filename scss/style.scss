@@ -1,0 +1,42 @@
+/* ------------------------------------------------------------------------
+[master Stylsheet]
+
+Project:  Huddle landing page with alternating feature block
+Version: 1.0.0
+------------------------------------------------------------------------ */
+
+/* ------------------------------------------------------------------------
+==== Table of Contents ====
+
+ * template variables
+
+ * Core Styles
+    + Fonts
+    + Main
+    + Navbar
+    + Typography
+    + Footer
+
+ * Components
+    + Buttons
+    + Cards
+    + Icons
+------------------------------------------------------------------------ */
+
+/* --------------------------------------------------------------------- */
+/* ==== Import template variables ==== */
+@import "variables";
+
+/* --------------------------------------------------------------------- */
+/* ==== Core Styles ==== */
+@import "fonts";
+@import "footer";
+@import "main";
+@import "navbar";
+@import "typography";
+
+/* --------------------------------------------------------------------- */
+/* ==== Components ==== */
+@import "components/buttons";
+@import "components/cards";
+@import "components/icons";
