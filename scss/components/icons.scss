@@ -4,20 +4,15 @@
 @import "../fontawesome/scss/solid.scss";
 @import "../fontawesome/scss/brands.scss";
 
-.user {
-  @extend %fa-icon;
-  @extend .fas;
-  &:before {
-    content: fa-content($fa-var-user);
-  }
-}
+////////// Contacts Icons //////////
 
-.bell {
+////////// Social media Icons //////////
+
+.facebook-f {
   @extend %fa-icon;
-  @extend .fas;
+  @extend .fab;
   &:before {
-    content: fa-content($fa-var-bell);
-    color: gold;
+    content: fa-content($fa-var-facebook-f);
   }
 }
 
@@ -29,10 +24,10 @@
   }
 }
 
-.facebook-f {
+.instagram {
   @extend %fa-icon;
   @extend .fab;
   &:before {
-    content: fa-content($fa-var-facebook-f);
+    content: fa-content($fa-var-instagram);
   }
 }

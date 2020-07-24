@@ -4,14 +4,13 @@
  */
 .fa,
 .fas,
-.user,
-.bell,
 .far,
 .fal,
 .fad,
 .fab,
+.facebook-f,
 .twitter,
-.facebook-f {
+.instagram {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   display: inline-block;
@@ -21,7 +20,7 @@
   line-height: 1;
 }
 
-.user, .bell, .twitter, .facebook-f {
+.facebook-f, .twitter, .instagram {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   display: inline-block;
@@ -124,25 +123,23 @@
 
 .fa.fa-pull-left,
 .fas.fa-pull-left,
-.fa-pull-left.user,
-.fa-pull-left.bell,
 .far.fa-pull-left,
 .fal.fa-pull-left,
 .fab.fa-pull-left,
+.fa-pull-left.facebook-f,
 .fa-pull-left.twitter,
-.fa-pull-left.facebook-f {
+.fa-pull-left.instagram {
   margin-right: .3em;
 }
 
 .fa.fa-pull-right,
 .fas.fa-pull-right,
-.fa-pull-right.user,
-.fa-pull-right.bell,
 .far.fa-pull-right,
 .fal.fa-pull-right,
 .fab.fa-pull-right,
+.fa-pull-right.facebook-f,
 .fa-pull-right.twitter,
-.fa-pull-right.facebook-f {
+.fa-pull-right.instagram {
   margin-left: .3em;
 }
 
@@ -6059,9 +6056,7 @@ readers do not read off random characters that represent icons */
 }
 
 .fa,
-.fas,
-.user,
-.bell {
+.fas {
   font-family: 'Font Awesome 5 Free';
   font-weight: 900;
 }
@@ -6081,25 +6076,21 @@ readers do not read off random characters that represent icons */
 
 
 .fab,
+.facebook-f,
 .twitter,
-.facebook-f {
+.instagram {
   font-family: 'Font Awesome 5 Brands';
   font-weight: 400;
 }
 
-.user:before {
-  content: "\f007";
-}
-
-.bell:before {
-  content: "\f0f3";
-  color: gold;
+.facebook-f:before {
+  content: "\f39e";
 }
 
 .twitter:before {
   content: "\f099";
 }
 
-.facebook-f:before {
-  content: "\f39e";
+.instagram:before {
+  content: "\f16d";
 }
