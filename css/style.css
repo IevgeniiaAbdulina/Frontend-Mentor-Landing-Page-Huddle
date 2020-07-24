@@ -36,10 +36,81 @@ Version: 1.0.0
 body {
   max-width: 1440px;
   margin: 0 auto;
+}
+
+body {
+  font-size: 1.125rem;
   font-family: "Poppins", sans-serif;
-  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
   background-color: #fff;
   color: #00252e;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+  line-height: normal;
+}
+
+p {
+  font-size: 1.125rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.5rem;
+}
+
+h1 {
+  font-size: 3.125rem;
+}
+
+h2 {
+  font-size: 2.25rem;
+}
+
+h3 {
+  font-size: 2.125rem;
+}
+
+@media (max-width: 1024px) {
+  h3 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 991px) {
+  h3 {
+    font-size: 1.5rem;
+  }
+}
+
+h4,
+.h4 {
+  font-size: 1.875rem;
+}
+
+h5,
+.h5 {
+  font-size: 1.25rem;
+}
+
+@media (max-width: 1024px) {
+  h5,
+  .h5 {
+    font-size: 1rem;
+  }
+}
+
+h6,
+.h6 {
+  font-size: 1.125rem;
+}
+
+.text-small {
+  font-size: 14px;
 }
 
 /* --------------------------------------------------------------------- */
