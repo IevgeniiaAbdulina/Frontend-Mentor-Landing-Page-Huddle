@@ -1,6 +1,5 @@
 body {
   font-family: $body-font-family;
-  font-weight: $font-weight-regular;
   line-height: normal;
   background-color: #fff;
   color: $color-neutral-very-dark-cyan;
@@ -17,7 +16,8 @@ h6 {
 }
 
 p {
-  font-size: 1.125rem;
+  font-size: $body-font-size;
+  font-weight: $font-weight-regular;
   margin-bottom: 0.5rem;
   line-height: 1.875rem;
 }
