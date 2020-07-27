@@ -22,10 +22,15 @@ section {
   margin: 180px 0 0 0;
 }
 
-// Banner
+// Banner Section
 
 .banner {
   display: flex;
+  @media (max-width: 991px) {
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+  }
 
   &-text {
     flex: 0 0 50%;
@@ -35,11 +40,8 @@ section {
       display: flex;
       flex-direction: column;
       justify-content: center;
-      padding-right: 80px;
+      padding: 40px 80px 40px 0;
 
-      h1 {
-        margin-bottom: 40px;
-      }
       .btn-banner {
         margin: 40px 0;
       }
@@ -53,9 +55,6 @@ section {
       max-width: 100%;
       margin: 60px 0;
     }
-  }
-  @media (max-width: 1024px) {
-    flex-wrap: wrap;
   }
 }
 
@@ -80,11 +79,8 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 0 100px;
+    padding: 20px 100px;
 
-    h3 {
-      margin-bottom: 20px;
-    }
     p {
       color: $color-neutral-grayish-blue;
     }
@@ -103,4 +99,15 @@ section {
 
 .revert {
   order: 2;
+}
+
+// Get Started Section
+
+.get-started-block {
+  width: fit-content;
+  margin: 0 auto;
+  padding: 60px;
+  text-align: center;
+  border-radius: 16px;
+  box-shadow: 0 3px 16px rgba(0, 0, 0, 0.12);
 }
