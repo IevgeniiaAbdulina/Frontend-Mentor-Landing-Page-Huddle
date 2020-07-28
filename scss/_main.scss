@@ -1,3 +1,5 @@
+// Main Section
+
 * {
   margin: 0;
   padding: 0;
@@ -58,12 +60,6 @@ section {
       @media (max-width: 991px) {
         padding: 60px 20px;
         text-align: center;
-        h1 {
-          margin-bottom: 25px;
-        }
-        p {
-          line-height: 1.5rem;
-        }
       }
       .btn-banner {
         margin: 40px 0;
@@ -128,9 +124,6 @@ section {
     @media (max-width: 991px) {
       padding: 20px 20px 40px;
       text-align: center;
-      p {
-        line-height: 1.5rem;
-      }
     }
     p {
       color: $color-neutral-grayish-blue;
@@ -175,9 +168,6 @@ section {
   z-index: 1;
 
   @media (max-width: 991px) {
-    padding: 40px 30px 60px 30px;
-    h2 {
-      font-size: 1.125rem;
-    }
+    padding: 40px 25px 60px 25px;
   }
 }

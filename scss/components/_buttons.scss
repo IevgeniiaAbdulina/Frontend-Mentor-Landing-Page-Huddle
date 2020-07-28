@@ -8,7 +8,6 @@
   text-align: center;
   text-decoration: none;
   width: fit-content;
-  padding: 30px 100px;
   border-radius: 60px;
   box-shadow: 0 3px 16px rgba(0, 0, 0, 0.12);
   @media (max-width: 991px) {
@@ -22,6 +21,7 @@
   background-color: $color-primary-pink;
   color: #fff;
   margin-top: 20px;
+  padding: 20px 80px;
   position: relative;
   top: 40px;
   transition: 0.4s ease;
@@ -39,6 +39,7 @@
   @extend .button;
   background-color: #fff;
   color: $color-neutral-very-dark-cyan;
+  padding: 16px 60px;
   transition: 0.4s ease;
   &:hover {
     background-color: darken($color-neutral-very-pale-cyan, 2%);

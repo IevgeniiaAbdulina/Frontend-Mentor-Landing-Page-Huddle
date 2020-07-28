@@ -11,10 +11,10 @@ Version: 1.0.0
 
  * Core Styles
     + Fonts
+    + Footer
     + Main
     + Navbar
     + Typography
-    + Footer
 
  * Components
     + Buttons
@@ -240,12 +240,6 @@ section {
     padding: 60px 20px;
     text-align: center;
   }
-  .banner-text .text-content h1 {
-    margin-bottom: 25px;
-  }
-  .banner-text .text-content p {
-    line-height: 1.5rem;
-  }
 }
 
 .banner-text .text-content .btn-banner {
@@ -328,9 +322,6 @@ section {
     padding: 20px 20px 40px;
     text-align: center;
   }
-  .feature-text-content p {
-    line-height: 1.5rem;
-  }
 }
 
 .feature-text-content p {
@@ -380,10 +371,7 @@ section {
 
 @media (max-width: 991px) {
   .get-started-block {
-    padding: 40px 30px 60px 30px;
-  }
-  .get-started-block h2 {
-    font-size: 1.125rem;
+    padding: 40px 25px 60px 25px;
   }
 }
 
@@ -432,6 +420,12 @@ p {
   }
 }
 
+@media (max-width: 991px) {
+  p {
+    line-height: 1.5rem;
+  }
+}
+
 h1 {
   font-size: 3.125rem;
   margin-bottom: 40px;
@@ -446,6 +440,7 @@ h1 {
 @media (max-width: 991px) {
   h1 {
     font-size: 1.5rem;
+    margin-bottom: 25px;
   }
 }
 
@@ -462,7 +457,7 @@ h2 {
 
 @media (max-width: 991px) {
   h2 {
-    font-size: 2rem;
+    font-size: 1rem;
   }
 }
 
@@ -519,7 +514,6 @@ h6,
   text-align: center;
   text-decoration: none;
   width: fit-content;
-  padding: 30px 100px;
   border-radius: 60px;
   box-shadow: 0 3px 16px rgba(0, 0, 0, 0.12);
 }
@@ -535,6 +529,7 @@ h6,
   background-color: #ff52bf;
   color: #fff;
   margin-top: 20px;
+  padding: 20px 80px;
   position: relative;
   top: 40px;
   transition: 0.4s ease;
@@ -555,6 +550,7 @@ h6,
 .white-button {
   background-color: #fff;
   color: #00252e;
+  padding: 16px 60px;
   transition: 0.4s ease;
 }
 

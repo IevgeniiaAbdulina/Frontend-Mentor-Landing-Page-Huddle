@@ -1,3 +1,5 @@
+// Typography Style
+
 body {
   font-family: $body-font-family;
   line-height: normal;
@@ -23,6 +25,9 @@ p {
   @media (max-width: 1024px) {
     font-size: 1rem;
   }
+  @media (max-width: 991px) {
+    line-height: 1.5rem;
+  }
 }
 
 h1 {
@@ -33,6 +38,7 @@ h1 {
   }
   @media (max-width: 991px) {
     font-size: 1.5rem;
+    margin-bottom: 25px;
   }
 }
 
@@ -43,7 +49,7 @@ h2 {
     font-size: 2.125rem;
   }
   @media (max-width: 991px) {
-    font-size: 2rem;
+    font-size: 1rem;
   }
 }
 
