@@ -89,7 +89,7 @@ section {
   }
 }
 
-// Features section
+// Features Section
 
 .features {
   margin-top: 140px;
@@ -173,4 +173,11 @@ section {
   position: relative;
   top: 60px;
   z-index: 1;
+
+  @media (max-width: 991px) {
+    padding: 40px 30px 60px 30px;
+    h2 {
+      font-size: 1.125rem;
+    }
+  }
 }

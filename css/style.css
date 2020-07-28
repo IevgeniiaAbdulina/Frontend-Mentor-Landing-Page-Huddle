@@ -335,6 +335,15 @@ section {
   z-index: 1;
 }
 
+@media (max-width: 991px) {
+  .get-started-block {
+    padding: 40px 30px 60px 30px;
+  }
+  .get-started-block h2 {
+    font-size: 1.125rem;
+  }
+}
+
 .navbar {
   padding-top: 60px;
   display: flex;
@@ -482,6 +491,7 @@ h6,
 .pink-button {
   background-color: #ff52bf;
   color: #fff;
+  margin-top: 20px;
   position: relative;
   top: 40px;
   transition: 0.4s ease;
@@ -494,7 +504,8 @@ h6,
 @media (max-width: 991px) {
   .pink-button {
     align-self: center;
-    padding: 10px 50px;
+    padding: 12px 50px;
+    top: 18px;
   }
 }
 
