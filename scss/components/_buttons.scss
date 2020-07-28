@@ -1,0 +1,36 @@
+//  Button Container
+
+.button {
+  font-family: $call-to-actions-font-family;
+  font-size: $body-font-size;
+  font-weight: $headings-font-weight;
+  line-height: normal;
+  text-align: center;
+  text-decoration: none;
+  width: fit-content;
+  padding: 30px 100px;
+  border-radius: 60px;
+  box-shadow: 0 3px 16px rgba(0, 0, 0, 0.12);
+}
+
+.pink-button {
+  @extend .button;
+  background-color: $color-primary-pink;
+  color: #fff;
+  position: relative;
+  top: 40px;
+  transition: 0.4s ease;
+  &:hover {
+    background-color: darken($color-primary-pink, 10%);
+  }
+}
+
+.white-button {
+  @extend .button;
+  background-color: #fff;
+  color: $color-neutral-very-dark-cyan;
+  transition: 0.4s ease;
+  &:hover {
+    background-color: darken($color-neutral-very-pale-cyan, 2%);
+  }
+}
