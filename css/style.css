@@ -27,6 +27,67 @@ Version: 1.0.0
 /* ==== Core Styles ==== */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+.footer {
+  padding-top: 140px;
+  background-color: #00252e;
+  color: #ebfbff;
+}
+
+.footer-header {
+  padding: 40px 0;
+}
+
+.footer-header .footer-logo {
+  filter: invert(100%) sepia(65%) saturate(126%) hue-rotate(192deg) brightness(116%) contrast(100%);
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-wrapper > * {
+  display: flex;
+  flex: 1 1;
+}
+
+.contacts {
+  flex-direction: column;
+  padding-right: 20px;
+}
+
+.contacts > * {
+  display: flex;
+  margin-bottom: 12px;
+}
+
+.contacts i {
+  margin-right: 20px;
+  padding: 8px 0;
+}
+
+.nav-links {
+  justify-content: space-evenly;
+  padding: 0 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.25rem;
+  line-height: 2.5rem;
+}
+
+.social-contacts {
+  justify-content: center;
+  padding-left: 20px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -47,7 +108,7 @@ body {
 }
 
 section {
-  margin: 180px 0 0 0;
+  margin: 80px 0 0 0;
 }
 
 .banner {
@@ -87,6 +148,10 @@ section {
 .banner-img img {
   max-width: 100%;
   margin: 60px 0;
+}
+
+.features {
+  margin-top: 140px;
 }
 
 .feature-block {
@@ -137,10 +202,14 @@ section {
 .get-started-block {
   width: fit-content;
   margin: 0 auto;
-  padding: 60px;
+  padding: 60px 100px;
   text-align: center;
   border-radius: 16px;
   box-shadow: 0 3px 16px rgba(0, 0, 0, 0.12);
+  background-color: #fff;
+  position: relative;
+  top: 60px;
+  z-index: 1;
 }
 
 .navbar {
@@ -6353,4 +6422,15 @@ readers do not read off random characters that represent icons */
 
 .instagram:before {
   content: "\f16d";
+}
+
+.ic-container {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  margin-right: 20px;
 }

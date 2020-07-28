@@ -19,7 +19,7 @@ body {
 }
 
 section {
-  margin: 180px 0 0 0;
+  margin: 80px 0 0 0;
 }
 
 // Banner Section
@@ -59,6 +59,10 @@ section {
 }
 
 // Features section
+
+.features {
+  margin-top: 140px;
+}
 
 .feature-block {
   display: flex;
@@ -106,8 +110,13 @@ section {
 .get-started-block {
   width: fit-content;
   margin: 0 auto;
-  padding: 60px;
+  padding: 60px 100px;
   text-align: center;
   border-radius: 16px;
   box-shadow: 0 3px 16px rgba(0, 0, 0, 0.12);
+  background-color: #fff;
+
+  position: relative;
+  top: 60px;
+  z-index: 1;
 }

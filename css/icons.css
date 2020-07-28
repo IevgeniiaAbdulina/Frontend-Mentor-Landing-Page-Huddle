@@ -6094,3 +6094,14 @@ readers do not read off random characters that represent icons */
 .instagram:before {
   content: "\f16d";
 }
+
+.ic-container {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  margin-right: 20px;
+}

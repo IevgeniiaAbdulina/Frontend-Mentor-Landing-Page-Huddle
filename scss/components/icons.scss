@@ -31,3 +31,14 @@
     content: fa-content($fa-var-instagram);
   }
 }
+
+.ic-container {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  margin-right: 20px;
+}
