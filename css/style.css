@@ -237,10 +237,16 @@ section {
   margin-top: 140px;
 }
 
+@media (max-width: 1024px) {
+  .features {
+    margin-top: 60px;
+  }
+}
+
 .feature-block {
   display: flex;
   padding: 0 20px;
-  margin: 0 0 60px 0;
+  margin-bottom: 60px;
   border-radius: 16px;
   box-shadow: 0 3px 16px rgba(0, 0, 0, 0.12);
 }
@@ -248,6 +254,8 @@ section {
 @media (max-width: 1024px) {
   .feature-block {
     flex-wrap: wrap;
+    flex-direction: column;
+    margin-bottom: 40px;
   }
 }
 
@@ -256,12 +264,30 @@ section {
   max-width: 60%;
 }
 
+@media (max-width: 991px) {
+  .feature-text {
+    flex: 1;
+    max-width: 100%;
+    order: 2;
+  }
+}
+
 .feature-text-content {
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 20px 100px;
+}
+
+@media (max-width: 991px) {
+  .feature-text-content {
+    padding: 20px 20px 40px;
+    text-align: center;
+  }
+  .feature-text-content p {
+    line-height: 1.5rem;
+  }
 }
 
 .feature-text-content p {
@@ -273,9 +299,23 @@ section {
   max-width: 40%;
 }
 
+@media (max-width: 991px) {
+  .feature-img {
+    flex: 1;
+    max-width: 100%;
+  }
+}
+
 .feature-img img {
   max-width: 100%;
   padding: 60px;
+}
+
+@media (max-width: 991px) {
+  .feature-img img {
+    padding: 30px;
+    margin-top: 30px;
+  }
 }
 
 .revert {
