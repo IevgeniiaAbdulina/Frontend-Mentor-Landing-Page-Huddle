@@ -4,6 +4,9 @@
  */
 .fa,
 .fas,
+.map-marker-alt,
+.phone-alt,
+.envelope,
 .far,
 .fal,
 .fad,
@@ -20,7 +23,7 @@
   line-height: 1;
 }
 
-.facebook-f, .twitter, .instagram {
+.map-marker-alt, .phone-alt, .envelope, .facebook-f, .twitter, .instagram {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   display: inline-block;
@@ -123,6 +126,9 @@
 
 .fa.fa-pull-left,
 .fas.fa-pull-left,
+.fa-pull-left.map-marker-alt,
+.fa-pull-left.phone-alt,
+.fa-pull-left.envelope,
 .far.fa-pull-left,
 .fal.fa-pull-left,
 .fab.fa-pull-left,
@@ -134,6 +140,9 @@
 
 .fa.fa-pull-right,
 .fas.fa-pull-right,
+.fa-pull-right.map-marker-alt,
+.fa-pull-right.phone-alt,
+.fa-pull-right.envelope,
 .far.fa-pull-right,
 .fal.fa-pull-right,
 .fab.fa-pull-right,
@@ -6056,7 +6065,10 @@ readers do not read off random characters that represent icons */
 }
 
 .fa,
-.fas {
+.fas,
+.map-marker-alt,
+.phone-alt,
+.envelope {
   font-family: 'Font Awesome 5 Free';
   font-weight: 900;
 }
@@ -6081,6 +6093,18 @@ readers do not read off random characters that represent icons */
 .instagram {
   font-family: 'Font Awesome 5 Brands';
   font-weight: 400;
+}
+
+.map-marker-alt:before {
+  content: "\f3c5";
+}
+
+.phone-alt:before {
+  content: "\f879";
+}
+
+.envelope:before {
+  content: "\f0e0";
 }
 
 .facebook-f:before {

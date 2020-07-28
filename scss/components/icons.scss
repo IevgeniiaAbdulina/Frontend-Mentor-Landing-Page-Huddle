@@ -1,4 +1,4 @@
-////////// Fontawesome Icons //////////
+////////// Import Font Awesome Icons //////////
 
 @import "../fontawesome/scss/fontawesome.scss";
 @import "../fontawesome/scss/solid.scss";
@@ -6,7 +6,31 @@
 
 ////////// Contacts Icons //////////
 
-////////// Social media Icons //////////
+.map-marker-alt {
+  @extend %fa-icon;
+  @extend .fas;
+  &:before {
+    content: fa-content($fa-var-map-marker-alt);
+  }
+}
+
+.phone-alt {
+  @extend %fa-icon;
+  @extend .fas;
+  &:before {
+    content: fa-content($fa-var-phone-alt);
+  }
+}
+
+.envelope {
+  @extend %fa-icon;
+  @extend .fas;
+  &:before {
+    content: fa-content($fa-var-envelope);
+  }
+}
+
+////////// Social Media Icons //////////
 
 .facebook-f {
   @extend %fa-icon;
