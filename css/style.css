@@ -134,12 +134,30 @@ body {
   background: #ebfbff url(../images/bg-hero-desktop.svg) no-repeat top;
 }
 
+@media (max-width: 991px) {
+  .home-wrapper {
+    background: #ebfbff url(../images/bg-hero-mobile.svg) no-repeat top;
+  }
+}
+
 .container {
   padding: 0 80px;
 }
 
+@media (max-width: 991px) {
+  .container {
+    padding: 0 20px;
+  }
+}
+
 section {
   margin: 80px 0 0 0;
+}
+
+@media (max-width: 991px) {
+  section {
+    margin: 40px 0 0 0;
+  }
 }
 
 .banner {
@@ -159,12 +177,32 @@ section {
   max-width: 50%;
 }
 
+@media (max-width: 991px) {
+  .banner-text {
+    flex: 1;
+    max-width: 100%;
+  }
+}
+
 .banner-text .text-content {
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 40px 80px 40px 0;
+}
+
+@media (max-width: 991px) {
+  .banner-text .text-content {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  .banner-text .text-content h1 {
+    margin-bottom: 25px;
+  }
+  .banner-text .text-content p {
+    line-height: 1.5rem;
+  }
 }
 
 .banner-text .text-content .btn-banner {
@@ -176,9 +214,23 @@ section {
   max-width: 50%;
 }
 
+@media (max-width: 991px) {
+  .banner-img {
+    flex: 1;
+    max-width: 100%;
+  }
+}
+
 .banner-img img {
   max-width: 100%;
   margin: 60px 0;
+}
+
+@media (max-width: 991px) {
+  .banner-img img {
+    margin: 30px 0;
+    padding: 0 20px;
+  }
 }
 
 .features {
@@ -249,6 +301,15 @@ section {
   justify-content: space-between;
 }
 
+@media (max-width: 991px) {
+  .navbar {
+    padding-top: 40px;
+  }
+  .navbar img {
+    max-width: 120px;
+  }
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   line-height: normal;
@@ -292,7 +353,7 @@ h1 {
 
 @media (max-width: 991px) {
   h1 {
-    font-size: 1.125rem;
+    font-size: 1.5rem;
   }
 }
 
@@ -371,6 +432,13 @@ h6,
   box-shadow: 0 3px 16px rgba(0, 0, 0, 0.12);
 }
 
+@media (max-width: 991px) {
+  .button, .pink-button, .white-button {
+    font-size: 0.875rem;
+    border-radius: 20px;
+  }
+}
+
 .pink-button {
   background-color: #ff52bf;
   color: #fff;
@@ -383,6 +451,13 @@ h6,
   background-color: #ff1fad;
 }
 
+@media (max-width: 991px) {
+  .pink-button {
+    align-self: center;
+    padding: 10px 50px;
+  }
+}
+
 .white-button {
   background-color: #fff;
   color: #00252e;
@@ -391,6 +466,12 @@ h6,
 
 .white-button:hover {
   background-color: #e0f8ff;
+}
+
+@media (max-width: 991px) {
+  .white-button {
+    padding: 10px 30px;
+  }
 }
 
 /*!

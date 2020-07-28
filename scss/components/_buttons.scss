@@ -11,6 +11,10 @@
   padding: 30px 100px;
   border-radius: 60px;
   box-shadow: 0 3px 16px rgba(0, 0, 0, 0.12);
+  @media (max-width: 991px) {
+    font-size: 0.875rem;
+    border-radius: 20px;
+  }
 }
 
 .pink-button {
@@ -23,6 +27,10 @@
   &:hover {
     background-color: darken($color-primary-pink, 10%);
   }
+  @media (max-width: 991px) {
+    align-self: center;
+    padding: 10px 50px;
+  }
 }
 
 .white-button {
@@ -32,5 +40,8 @@
   transition: 0.4s ease;
   &:hover {
     background-color: darken($color-neutral-very-pale-cyan, 2%);
+  }
+  @media (max-width: 991px) {
+    padding: 10px 30px;
   }
 }
